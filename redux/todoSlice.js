@@ -80,20 +80,20 @@ export const deleteTodoAsync = createAsyncThunk(
 const todoSlice = createSlice({
   name: "todos",
   initialState: [
-    {
-      id: 1,
-      title: "First todo",
-      description: "This is first todo",
-      deadline: "13.7. 2022",
-      completed: false,
-    },
-    {
-      id: 2,
-      title: "Second todo",
-      description: "This is 2 todo",
-      deadline: "14.7. 2022",
-      completed: false,
-    },
+    // {
+    //   id: 1,
+    //   title: "First todo",
+    //   description: "This is first todo",
+    //   deadline: "13.7. 2022",
+    //   completed: false,
+    // },
+    // {
+    //   id: 2,
+    //   title: "Second todo",
+    //   description: "This is 2 todo",
+    //   deadline: "14.7. 2022",
+    //   completed: false,
+    // },
   ],
 
   reducers: {
